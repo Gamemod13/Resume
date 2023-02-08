@@ -15,8 +15,9 @@ body {
 
 /* Main content */
 .main-content {
-    padding: 88px;
+    padding: 154px;
 }
+
 .main-content-title {
     font-style: normal;
     font-weight: 700;
@@ -60,7 +61,7 @@ body {
 
 /* Projects */
 .projects-container {
-margin: 0 0 52px 0;
+    margin: 0 0 52px 0;
 }
 
 .project-item {
@@ -98,6 +99,7 @@ margin: 0 0 52px 0;
 .sidebar {
     width: 370px;
     background: #E0EBFE;
+    padding: 0 0 0 0;
 }
 
 .my-photo {
@@ -125,7 +127,8 @@ margin: 0 0 52px 0;
     margin-bottom: 44px;
 }
 
-.work-expirience-position {
+.work-expirience-position,
+.course-title {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -138,11 +141,13 @@ margin: 0 0 52px 0;
 }
 
 .work-expirience-company,
-.university-name {
+.university-name,
+.course-speciality {
     color: #6D9BF5;
     width: 340px;
     margin: 12px 0 12px 0;
 }
+
 .period {
     font-style: normal;
     font-weight: 400;
@@ -167,11 +172,13 @@ margin: 0 0 52px 0;
 
 /* Education */
 
-.education-speciality{
+.education-speciality {
     font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #161D2A;
+    margin: 34px 0 12px 0;
 }
 
 /* Contaxt */
