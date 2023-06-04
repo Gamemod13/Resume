@@ -3,6 +3,9 @@ body {
   background-color: #e5e5e5;
   padding: 40px;
 }
+@page {
+  size: A4;
+}
 
 .wrapper {
   display: flex;
@@ -256,4 +259,13 @@ body {
 
 .download-btn:hover {
   transform: translateY(-4px);
+}
+
+@media print {
+  #header {
+    display: none;
+  }
+  .download-btn {
+    display: none;
+  }
 }
