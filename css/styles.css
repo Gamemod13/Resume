@@ -111,7 +111,8 @@ body {
 
 .contacts-container,
 .language-container,
-.tech-skills-container {
+.tech-skills-container,
+.location-container {
   margin: 40px 0 0 40px;
 }
 
@@ -216,18 +217,21 @@ body {
 
 /* Skills */
 .skills-list,
-.language-list {
+.language-list,
+.location-list {
   margin: 0;
   padding: 0 0 0 16px;
 }
 
 .skills-list-item,
-.language-list-item {
+.language-list-item,
+.location-list-item {
   color: #6d9bf5;
 }
 
 .skills-list-text,
-.language-list-text {
+.language-list-text,
+.location-list-text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
