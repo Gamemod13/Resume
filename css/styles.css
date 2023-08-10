@@ -52,7 +52,8 @@ body {
   margin: 0 0 28px 0;
 }
 
-.my-descr {
+.my-descr,
+.project-descr {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -131,7 +132,9 @@ body {
 /* Work expirience */
 
 .work-expirience-container {
+  margin-top: 44px;
   margin-bottom: 44px;
+  page-break-before: always;
 }
 
 .work-expirience-position,
