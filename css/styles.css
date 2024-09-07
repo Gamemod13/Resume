@@ -19,7 +19,7 @@ body {
 /* Main content */
 .main-content {
   padding: 50px;
-  margin-left: 100px; 
+  /* margin-left: 100px;  */
   /* padding: 154px; */
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .about-me-container {
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 
 /* Projects */
@@ -134,7 +134,7 @@ body {
 .work-expirience-container {
   margin-top: 44px;
   margin-bottom: 44px;
-  page-break-before: always;
+  /* page-break-before: always; */
 }
 
 .work-expirience-position,
