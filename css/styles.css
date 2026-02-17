@@ -18,9 +18,7 @@ body {
 
 /* Main content */
 .main-content {
-  padding: 50px;
-  /* margin-left: 100px;  */
-  /* padding: 154px; */
+  padding: 100px;
 }
 
 .main-content-title,
@@ -30,18 +28,8 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin: 0 0 16px 0;
+  margin: 16 16 16 0;
 }
-
-/* About me */
-/* .my-profession {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-  margin: 0 0 8px 0;
-} */
 
 .my-name {
   font-style: normal;
@@ -59,11 +47,6 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #595959;
-  width: 524px;
-}
-
-.about-me-container {
-  /* margin-bottom: 64px; */
 }
 
 /* Projects */
@@ -85,8 +68,15 @@ body {
   margin: 0;
 }
 
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .projects-item-description {
   font-style: normal;
+  white-space: nowrap;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -134,7 +124,6 @@ body {
 .work-expirience-container {
   margin-top: 44px;
   margin-bottom: 44px;
-  /* page-break-before: always; */
 }
 
 .work-expirience-position,
@@ -246,6 +235,19 @@ body {
 }
 
 /* Button */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+@media print {
+  .no-break {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
 .download-btn {
   margin-top: 40px;
   margin-left: 48px;
@@ -260,22 +262,8 @@ body {
   box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: all 500ms ease;
-
-  position: fixed;
-  left: 80px;
-  bottom: 40px;
-  z-index: 200;
 }
 
 .download-btn:hover {
   transform: translateY(-4px);
-}
-
-@media print {
-  #header {
-    display: none;
-  }
-  .download-btn {
-    display: none;
-  }
 }
